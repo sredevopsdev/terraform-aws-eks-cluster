@@ -19,4 +19,10 @@ terraform {
       version = ">= 2.0"
     }
   }
+  backend "s3" {
+    bucket = "consorciocrm-infra"
+    key = "terraform.tfstate"
+    region = "us-east-1"
+    
+  }
 }

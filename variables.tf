@@ -38,7 +38,7 @@ variable "workers_role_arns" {
 variable "kubernetes_version" {
   type        = string
   description = "Desired Kubernetes master version. If you do not specify a value, the latest available version is used"
-  default     = "1.21"
+  default     = "1.25"
 }
 
 variable "oidc_provider_enabled" {

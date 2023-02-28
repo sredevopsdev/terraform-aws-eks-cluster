@@ -1,33 +1,33 @@
-region = "us-east-2"
+region = "us-east-1"
 
-availability_zones = ["us-east-2a", "us-east-2b"]
+availability_zones = ["us-east-1a", "us-east-1b"]
 
-namespace = "eg"
+namespace = "vass"
 
 stage = "test"
 
-name = "eks"
+name = "consorciocrm"
 
 # When updating the Kubernetes version, also update the API and client-go version in test/src/go.mod
-kubernetes_version = "1.22"
+kubernetes_version = "1.25"
 
 oidc_provider_enabled = true
 
 enabled_cluster_log_types = ["audit"]
 
-cluster_log_retention_period = 7
+cluster_log_retention_period = 5
 
-instance_types = ["t3.small"]
+instance_types = ["m5.large"]
 
 desired_size = 2
 
 max_size = 3
 
-min_size = 2
+min_size = 1
 
 kubernetes_labels = {}
 
-cluster_encryption_config_enabled = true
+cluster_encryption_config_enabled = false
 
 addons = [
   {

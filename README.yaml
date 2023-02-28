@@ -2,12 +2,12 @@ name: terraform-aws-eks-cluster
 
 license: APACHE2
 
-github_repo: cloudposse/terraform-aws-eks-cluster
+github_repo: sredevopsdev/terraform-aws-eks-cluster
 
 badges:
   - name: Latest Release
-    image: https://img.shields.io/github/release/cloudposse/terraform-aws-eks-cluster.svg
-    url: https://github.com/cloudposse/terraform-aws-eks-cluster/releases/latest
+    image: https://img.shields.io/github/release/sredevopsdev/terraform-aws-eks-cluster.svg
+    url: https://github.com/sredevopsdev/terraform-aws-eks-cluster/releases/latest
   - name: Slack Community
     image: https://slack.cloudposse.com/badge.svg
     url: https://slack.cloudposse.com
