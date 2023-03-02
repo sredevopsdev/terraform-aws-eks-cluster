@@ -55,3 +55,7 @@ terragrunt-debug.tfvars.json
 tfplan
 .build-harness
 tfvars.hcl
+**.tfvars
+**.tfvars.json
+**.tfvars.hcl
+**/*.tfvars
