@@ -53,3 +53,5 @@ terragrunt-debug.tfvars.json
 .envrc
 .terraform.lock.hcl
 tfplan
+.build-harness
+tfvars.hcl
